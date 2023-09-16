@@ -1,6 +1,6 @@
 import polars as pl
 import matplotlib.pyplot as plt
-from pandas_profiling import ProfileReport
+
   
 # read the CSV file 
 df = pl.read_csv('spotify_2023.csv', ignore_errors=True)
