@@ -4,7 +4,12 @@
 
 The purpose of this repo is to generate the descriptive statistics on datasets using Polars to read `` spotify_2023.csv ``. 
 
-![img](./spotify_logo.png =100*100)
+The ``spotify_2023.csv `` is from: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/code 
+
+
+This dataset contains a comprehensive list of the most famous songs of 2023 as listed on Spotify. The dataset offers a wealth of features beyond what is typically available in similar datasets. It provides insights into each song's attributes, popularity, and presence on various music platforms. The dataset includes information such as track name, artist(s) name, release date, Spotify playlists and charts, streaming statistics, Apple Music presence, Deezer presence, Shazam charts, and various audio features.
+
+<img decoding="async" src="https://i.insider.com/61aaa842983f360019c86a94?width=1000&format=jpeg&auto=webp-logo.png" width="50%">
 
 
 ### Files 
@@ -38,9 +43,9 @@ On git push/pull request the CI/CD flow is triggered using Github Actions:
 ![img](./mean_std.png)
 
 ### Visualizations
-Visualization of historgram on Age can be ran by using `python test_main.py` 
+Visualization of bar graph on Top 10 Songs can be run by using python `test_main.py` 
 
-![img](./Age_Figure_1.png)
+![img](./Top_10_Songs.png)
 
 ### Summary Report
 Please check ``Summary_Report.ipynb`` for details
