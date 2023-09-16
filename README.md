@@ -4,7 +4,7 @@
 
 The purpose of this repo is to generate the descriptive statistics on datasets using Polars to read `` spotify_2023.csv ``. 
 
-![img](./spotify_logo.png)
+![img](./spotify_logo.png =100*100)
 
 
 ### Files 
