@@ -1,12 +1,15 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
 
-## Jiechen_Li_Mini_2_Pandas
+## Jiechen_Li_Mini_3_Polars
 
-The purpose of this repo is to generate the descriptive statistics on datasets using Pandas. 
+The purpose of this repo is to generate the descriptive statistics on datasets using Polars to read `` spotify_2023.csv ``. 
+
+![img](./mean_std.png)
+
 
 ### Files 
 
-- ``.devcontainer`` configures local development container environment
+- ``.devcontainer`` configures the local development container environment
 - ``github/workflows/ci.yml`` triggers CI/CD on git push and pull request
 - ``.gitignore`` specifies which files or directories should be excluded from version control when using Git
 - ``Makefile`` build commands and utilities
@@ -28,11 +31,11 @@ On git push/pull request the CI/CD flow is triggered using Github Actions:
 
 ### Preparation
 1. Open codespaces 
-2. Wait for container to be built with requiremnts.txt installed
+2. Wait for the container to be built with requiremnts.txt installed
 
 ### Generate the Descriptive Statistics 
 
-![img](./discriptive_stat.png)
+![img](./mean_std.png)
 
 ### Visualizations
 Visualization of historgram on Age can be ran by using `python test_main.py` 
@@ -40,4 +43,4 @@ Visualization of historgram on Age can be ran by using `python test_main.py`
 ![img](./Age_Figure_1.png)
 
 ### Summary Report
-Please check ``data_summary.pdf`` for details
+Please check ``Summary_Report.ipynb`` for details
