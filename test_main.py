@@ -7,8 +7,8 @@ from spotify_main import spotify_song
 
 
 def test_spotify_main():
-    main_data = "spotify_2023.csv"
-    result = df(main_data)
+    # main_data = "spotify_2023.csv"
+    result = spotify_song()
     
     print(result)
 
